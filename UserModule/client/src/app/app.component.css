@@ -1,0 +1,13 @@
+nav {
+  padding-left: 50px;
+  font-size: 16pt;
+  z-index: 100;
+}
+nav a {
+  cursor: pointer;
+}
+nav .logout {
+  position: absolute;
+  right: 40px;
+}
+/*# sourceMappingURL=app.component.css.map */

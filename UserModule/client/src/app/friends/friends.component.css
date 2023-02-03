@@ -1,0 +1,34 @@
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.friends-wrap {
+  width: 100%;
+  height: 100%;
+}
+.friend-add {
+  float: left;
+}
+.finder {
+  padding-left: 100px;
+}
+.finder button {
+  margin-left: 20px;
+}
+.friends {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+tr td {
+  padding-top: 20px;
+}
+.name-field,
+.email-field {
+  width: 15%;
+}
+.img-field {
+  width: 10%;
+}
+/*# sourceMappingURL=friends.component.css.map */

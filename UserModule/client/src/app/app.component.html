@@ -1,0 +1,25 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" (click)="goToNews()">Unique</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" (click)="goToNews()">Новости</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="goToFriends()">Друзья</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="goToProfile()">Настройки профиля</a>
+      </li>
+      <li class="nav-item" *ngIf="isAdmin">
+        <a class="nav-link" href="https://localhost:3000/">Админка</a>
+      </li>
+      <li class="logout nav-item" *ngIf="logIn">
+        <a class="nav-link" (click)="logout()">Выйти</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

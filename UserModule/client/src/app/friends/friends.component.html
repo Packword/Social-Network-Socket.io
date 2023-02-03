@@ -1,0 +1,26 @@
+<div class="friends-wrap">
+  <div class="friends">
+    <div class="finder">
+      <input type="email" class="friend-add form-control w-25" placeholder="Email пользователя..." [(ngModel)]="friendEmail">
+      <button class="btn btn-primary" (click)="addFriend()">Добавить в друзья</button>
+    </div>
+    <table>
+      <tbody>
+        <tr class="user-friend" *ngFor="let friend of friends">
+          <td class="img-field">
+            <img src="https://localhost:3000{{friend.photo}}">
+          </td>
+          <td class="name-field">
+            {{friend.name}}
+          </td>
+          <td class="email-field">
+            {{friend.email}}
+          </td>
+          <td class="action-field">
+            <button class="btn btn-primary" (click)="deleteFriend(friend.id)">Удалить из друзей</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

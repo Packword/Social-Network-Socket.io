@@ -1,0 +1,13 @@
+<div class="profile-wrap">
+  <div class="profile-content-wrap">
+    <img [src]="userImgUrl">
+    <input class="form-control w-50" type="text" [(ngModel)]="userName">
+    <input class="form-control w-50" type="email" [(ngModel)]="userEmail">
+    <input type="date" class="form-control w-50" [(ngModel)]="userBirthday">
+    <form action="https://localhost:3000/addPhoto" method="POST" id="photoForm" >
+      <input class="form-control" type="file" name="photoData" style="width:50%;">
+    </form>
+    <button class="btn btn-secondary save-button" (click)="uploadPhoto()">Загрузить</button>
+    <button class="btn btn-primary save-button" type="submit" (click)="editProfile()">Сохранить изменения</button>
+  </div>
+</div>

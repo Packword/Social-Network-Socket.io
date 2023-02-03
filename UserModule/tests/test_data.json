@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "name": "Максим Желнин",
+    "birthday": "2002-03-27",
+    "email": "gelninmaxim02@gmail.com",
+    "password": "0000",
+    "photo": "/img/1668685203268max.jpg",
+    "role": "admin",
+    "status": "active",
+    "friends": [
+      "2"
+    ],
+    "news": [
+      "hello"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Юлия Рудакова",
+    "birthday": "2002-05-28",
+    "email": "iulia.zxc@gmail.com",
+    "password": "0001",
+    "photo": "/img/default.png",
+    "role": "user",
+    "status": "active",
+    "friends": [
+      "1"
+    ],
+    "news": [
+      "I'm newbee"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Никита Бояркин",
+    "birthday": "2002-03-15",
+    "email": "boyar@fas.com",
+    "password": "1234",
+    "photo": "/img/16686860645658624.jpg",
+    "role": "user",
+    "status": "active",
+    "friends": [
+      "1"
+    ],
+    "news": [
+      "",
+      "hi there"
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+
+<div class="addNews">
+  <input type="text" class="form-control w-25" [(ngModel)]="message" placeholder="Что у вас нового?">
+  <button class="btn btn-primary" (click)="addNews()">Запостить</button>
+  <br/>
+</div>
+<div class="news-wrap">
+
+  <div class="news" *ngIf="users">
+    <div class="user-posts" *ngFor="let user of users">
+      <div class="post" *ngFor="let post of user.news">
+        <p><b>{{user.name}}</b></p>
+        <div class="post-text"> {{post}} </div>
+      </div>
+    </div>
+  </div>
+
+</div>

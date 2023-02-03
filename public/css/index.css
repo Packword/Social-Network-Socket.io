@@ -1,0 +1,50 @@
+body {
+  background-color: mediumvioletred;
+  color: greenyellow;
+}
+a {
+  color: greenyellow;
+}
+a:hover {
+  color: green;
+}
+.content {
+  margin-top: 50px;
+  font-size: 20pt;
+}
+.content input,
+.content select,
+.content button {
+  margin-top: 10px;
+  width: 25%;
+  height: 40px;
+  border-radius: 4px;
+  border: solid 2px blueviolet;
+}
+.content .news-wrap {
+  width: 700px;
+  border: solid 3px blueviolet;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+}
+.content .news-wrap .news-comp {
+  margin-top: 15px;
+}
+.content table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+.content table tr {
+  margin-top: 8px;
+}
+.content table tr td {
+  padding: 5px;
+}
+.content caption {
+  color: greenyellow;
+  text-align: center;
+  caption-side: top;
+}
+/*# sourceMappingURL=index.css.map */

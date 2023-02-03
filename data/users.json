@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1",
+    "name": "Максим Желнин",
+    "birthday": "2002-03-27",
+    "email": "gelninmaxim02@gmail.com",
+    "password": "0000",
+    "photo": "/img/1668781525168photo_2022-10-08_20-31-06.jpg",
+    "role": "admin",
+    "status": "active",
+    "friends": [
+      "2",
+      "3",
+      "4"
+    ],
+    "news": [
+      "hello",
+      "Ghbdtmn",
+      "Првипо",
+      "lol1"
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Юлия Рудакова",
+    "birthday": "2002-05-28",
+    "email": "iulia.zxc@gmail.com",
+    "password": "0001",
+    "photo": "/img/default.png",
+    "role": "user",
+    "status": "active",
+    "friends": [
+      "1",
+      "3"
+    ],
+    "news": [
+      "I'm newbee",
+      "hello1",
+      "новый пост"
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Никита Бояркин",
+    "birthday": "2002-03-15",
+    "email": "boyar@fas.com",
+    "password": "1234",
+    "photo": "/img/16686860645658624.jpg",
+    "role": "user",
+    "status": "active",
+    "friends": [
+      "1"
+    ],
+    "news": [
+      "",
+      "hi there"
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Караваева Оксана",
+    "birthday": "2022-08-19",
+    "email": "Jnfsjdg@fggasf",
+    "password": "12345",
+    "photo": "/img/1668954900047photo_2022-10-08_20-31-06.jpg",
+    "role": "user",
+    "status": "active",
+    "friends": [],
+    "news": [
+      ""
+    ]
+  }
+]
